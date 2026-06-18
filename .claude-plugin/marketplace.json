@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jachana",
+  "owner": {
+    "name": "jachana"
+  },
+  "description": "jachana's Claude Code skills",
+  "plugins": [
+    {
+      "name": "brain-connect",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-brain-connect"
+      },
+      "description": "Find useful cross-project links in the central Obsidian \"brain\": where something built, learned, or decided in ONE project is reusable in ANOTHER"
+    },
+    {
+      "name": "brain-init",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-brain-init"
+      },
+      "description": "Register the current repository (or one the user names) with a central Obsidian \"second brain\" vault"
+    },
+    {
+      "name": "brain-report",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-brain-report"
+      },
+      "description": "Generate a generalized progress report across ALL projects in the central Obsidian \"brain\" vault — progress over a time period, what got done, pending tasks, overall project states, and what needs…"
+    },
+    {
+      "name": "brain-sync",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-brain-sync"
+      },
+      "description": "Protocol for working in a repo that contains a `.brain/` folder — the bridge to a central Obsidian \"second brain\" vault"
+    },
+    {
+      "name": "coolify",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-coolify"
+      },
+      "description": "Manage a self-hosted Coolify PaaS over its API — list/inspect/create/update/delete applications, databases, services, servers, projects, and environment variables"
+    },
+    {
+      "name": "coolify-audit",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-coolify-audit"
+      },
+      "description": "Read-only audit of a Coolify instance — full resource inventory, env-var hygiene (plaintext secrets), exposed ports, and servers that need validation"
+    },
+    {
+      "name": "coolify-deploy",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-coolify-deploy"
+      },
+      "description": "Trigger a Coolify deployment and VALIDATE it — poll the build to a terminal state, then check app health, and report PASS/FAIL with logs on failure"
+    },
+    {
+      "name": "email-assistant",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-email-assistant"
+      },
+      "description": "Draft email replies and new messages grounded in the user's second-brain (project context, prior decisions), and track multi-message threads so a long back-and-forth stays coherent"
+    },
+    {
+      "name": "breakdown",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-breakdown"
+      },
+      "description": "Split an oversized or vague card into small, independently-shippable subtasks with clear acceptance criteria"
+    },
+    {
+      "name": "dependency-graph",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-dependency-graph"
+      },
+      "description": "Print the dependency graph of board cards — recently closed + currently open — as a Mermaid diagram, an ASCII tree (roots first), plus cycle and dangling-reference diagnostics"
+    },
+    {
+      "name": "prune",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-prune"
+      },
+      "description": "Clean dead weight off a project board — duplicates, stale/obsolete cards, things already done, and zombie items no one will ever do"
+    },
+    {
+      "name": "refine",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-refine"
+      },
+      "description": "Backlog refinement / grooming / enrichment — make a backlog ready to work: enrich thin cards with context and acceptance criteria, estimate, order by priority, and flag what's blocked, duplicated, or…"
+    },
+    {
+      "name": "ship",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-ship"
+      },
+      "description": "Take the top kanban card all the way to shipped: claim it, verify it isn't already implemented, build backend+frontend+tests, commit, and move it to \"In review\" — keeping the board in sync"
+    },
+    {
+      "name": "triage",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-triage"
+      },
+      "description": "Sort a pile of incoming/unsorted items on a project board — route each to the right list, set priority AND size, detect dependencies between cards, flag duplicates, and surface what needs a human…"
+    },
+    {
+      "name": "prove-it-validation",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-prove-it-validation"
+      },
+      "description": "Discipline skill: before claiming any task succeeded, VERIFY it programmatically and SHOW the evidence (real command output, test runs, diffs, queries — and for anything visual, a screenshot /…"
+    },
+    {
+      "name": "human-readable-report",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-human-readable-report"
+      },
+      "description": "Write a report a human actually wants to read — status update, summary, analysis, retro, or briefing"
+    },
+    {
+      "name": "proposal-writer",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-proposal-writer"
+      },
+      "description": "Draft a client/business proposal, quote, or pitch — problem, scope, deliverables, timeline, price, assumptions, and a clear call to action"
+    },
+    {
+      "name": "issue-fix-workflow",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-issue-fix-workflow"
+      },
+      "description": "Flujo de trabajo para llevar UN issue de GitHub desde que se elige hasta un PR probado y con evidencia, en CUALQUIER repo"
+    },
+    {
+      "name": "game-improvement-analysis",
+      "source": {
+        "source": "github",
+        "repo": "jachana/skill-game-improvement-analysis"
+      },
+      "description": "Analyze a game's codebase and produce a prioritized, actionable improvement report — concrete problems, ideas, and changes — ranked by player-experience priorities (default Fun > Feel > Performance >…"
+    }
+  ]
+}
